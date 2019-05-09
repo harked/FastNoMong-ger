@@ -1,0 +1,32 @@
+{
+  "name": "fast-no-mong-ger",
+  "version": "0.0.1",
+  "description": "A fast REST APIs with Node.js, MongoDB, Fastify and Swagger.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harked/FastNoMong-ger.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "fastify",
+    "swagger"
+  ],
+  "author": "Randy Harkediansa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harked/FastNoMong-ger/issues"
+  },
+  "homepage": "https://github.com/harked/FastNoMong-ger#readme",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^2.3.0",
+    "fastify-swagger": "^2.3.2",
+    "mongoose": "^5.5.6",
+    "nodemon": "^1.19.0"
+  }
+}
