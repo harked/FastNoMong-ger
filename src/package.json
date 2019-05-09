@@ -4,7 +4,8 @@
   "description": "A fast REST APIs with Node.js, MongoDB, Fastify and Swagger.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/nodemon/bin/nodemon.js ./src/index.js"
   },
   "repository": {
     "type": "git",
